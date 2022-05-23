@@ -42,8 +42,8 @@ buttonSmallest.grid(row=4, column = 1)
 Label_5 = Label(window,text="The Least Number: ")
 Label_5.grid(row=5,column=0,sticky=W)
 smallestNumber = StringVar()
-Input_5 = Entry(window,bd=3,state="readonly",textvariable=smallestNumber)
-Input_5.grid(row=5,column=1)
+input_5 = Entry(window,bd=3,state="readonly",textvariable=smallestNumber)
+input_5.grid(row=5,column=1)
 
 
 mainloop()
